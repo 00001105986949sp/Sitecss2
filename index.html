@@ -19,56 +19,173 @@
         <a href="#imagens">Imagens</a>
     </nav>
 
-    <section id="videos">
-        <h2>Vídeos</h2>
-        <div class="media-item">
-            <video controls>
-                <source src="video1.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
-            <p class="description">Descrição do vídeo 1: Este é um vídeo de demonstração sobre a natureza.</p>
-        </div>
-        <div class="media-item">
-            <video controls>
-                <source src="video2.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
-            <p class="description">Descrição do vídeo 2: Um tutorial sobre como criar uma página HTML.</p>
-        </div>
-    </section>
+    <main>
+        <!-- Seção de vídeos -->
+        <section id="videos">
+            <h2>Vídeos</h2>
+            <div class="media-grid">
+                <!-- Cada vídeo com botão para expandir a descrição -->
+                <div class="media-item">
+                    <img src="thumb1.jpg" alt="Miniatura do vídeo 1" class="thumbnail">
+                    <h3>Vídeo 1</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição do vídeo 1: Este é um vídeo sobre natureza.</div>
+                </div>
 
-    <section id="musicas">
-        <h2>Músicas</h2>
-        <div class="media-item">
-            <audio controls>
-                <source src="musica1.mp3" type="audio/mp3">
-                Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p class="description">Descrição da música 1: Uma música relaxante para meditação.</p>
-        </div>
-        <div class="media-item">
-            <audio controls>
-                <source src="musica2.mp3" type="audio/mp3">
-                Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p class="description">Descrição da música 2: Uma faixa de rock animada.</p>
-        </div>
-    </section>
+                <div class="media-item">
+                    <img src="thumb2.jpg" alt="Miniatura do vídeo 2" class="thumbnail">
+                    <h3>Vídeo 2</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição do vídeo 2: Um tutorial sobre HTML básico.</div>
+                </div>
 
-    <section id="imagens">
-        <h2>Imagens</h2>
-        <div class="media-item">
-            <img src="imagem1.jpg" alt="Imagem 1">
-            <p class="description">Descrição da imagem 1: Uma linda paisagem de montanhas ao pôr do sol.</p>
-        </div>
-        <div class="media-item">
-            <img src="imagem2.jpg" alt="Imagem 2">
-            <p class="description">Descrição da imagem 2: Um gato descansando em uma janela.</p>
-        </div>
-    </section>
+                <!-- Mais 4 vídeos -->
+                <div class="media-item">
+                    <img src="thumb3.jpg" alt="Miniatura do vídeo 3" class="thumbnail">
+                    <h3>Vídeo 3</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição do vídeo 3: Vídeo sobre programação.</div>
+                </div>
 
-    <!-- Referência ao arquivo JavaScript -->
-    <script src="script.js"></script>
+                <div class="media-item">
+                    <img src="thumb4.jpg" alt="Miniatura do vídeo 4" class="thumbnail">
+                    <h3>Vídeo 4</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição do vídeo 4: Dicas de produtividade.</div>
+                </div>
 
-</body>
-</html>
+                <div class="media-item">
+                    <img src="thumb5.jpg" alt="Miniatura do vídeo 5" class="thumbnail">
+                    <h3>Vídeo 5</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição do vídeo 5: Como editar vídeos.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="thumb6.jpg" alt="Miniatura do vídeo 6" class="thumbnail">
+                    <h3>Vídeo 6</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição do vídeo 6: Melhores práticas de design.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de músicas -->
+        <section id="musicas">
+            <h2>Músicas</h2>
+            <div class="media-grid">
+                <div class="media-item">
+                    <img src="music_thumb1.jpg" alt="Miniatura da música 1" class="thumbnail">
+                    <h3>Música 1</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da música 1: Música relaxante.</div>
+                </div>
+
+                <!-- Mais 5 músicas -->
+                <div class="media-item">
+                    <img src="music_thumb2.jpg" alt="Miniatura da música 2" class="thumbnail">
+                    <h3>Música 2</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da música 2: Música animada de rock.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="music_thumb3.jpg" alt="Miniatura da música 3" class="thumbnail">
+                    <h3>Música 3</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da música 3: Música de meditação.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="music_thumb4.jpg" alt="Miniatura da música 4" class="thumbnail">
+                    <h3>Música 4</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da música 4: Clássico instrumental.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="music_thumb5.jpg" alt="Miniatura da música 5" class="thumbnail">
+                    <h3>Música 5</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da música 5: Música eletrônica.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="music_thumb6.jpg" alt="Miniatura da música 6" class="thumbnail">
+                    <h3>Música 6</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da música 6: Jazz relaxante.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de imagens -->
+        <section id="imagens">
+            <h2>Imagens</h2>
+            <div class="media-grid">
+                <!-- 9 imagens em grid -->
+                <div class="media-item">
+                    <img src="imagem1.jpg" alt="Imagem 1" class="thumbnail">
+                    <h3>Imagem 1</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 1: Montanhas ao pôr do sol.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem2.jpg" alt="Imagem 2" class="thumbnail">
+                    <h3>Imagem 2</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 2: Gato na janela.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem3.jpg" alt="Imagem 3" class="thumbnail">
+                    <h3>Imagem 3</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 3: Praia paradisíaca.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem4.jpg" alt="Imagem 4" class="thumbnail">
+                    <h3>Imagem 4</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 4: Floresta densa.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem5.jpg" alt="Imagem 5" class="thumbnail">
+                    <h3>Imagem 5</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 5: Noite estrelada.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem6.jpg" alt="Imagem 6" class="thumbnail">
+                    <h3>Imagem 6</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 6: Cachoeira isolada.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem7.jpg" alt="Imagem 7" class="thumbnail">
+                    <h3>Imagem 7</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 7: Pôr do sol no deserto.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem8.jpg" alt="Imagem 8" class="thumbnail">
+                    <h3>Imagem 8</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 8: Rio calmo ao amanhecer.</div>
+                </div>
+
+                <div class="media-item">
+                    <img src="imagem9.jpg" alt="Imagem 9" class="thumbnail">
+                    <h3>Imagem 9</h3>
+                    <button class="toggle-description">Mostrar Descrição</button>
+                    <div class="description hidden">Descrição da imagem 9: Neve nas montanhas.</div>
+                </div>
+            </div>
+        </section>
+   
