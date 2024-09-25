@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Multimídia</title>
+    <!-- Referência ao arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        Plataforma de Multimídia
+    </header>
+
+    <nav>
+        <a href="#videos">Vídeos</a>
+        <a href="#musicas">Músicas</a>
+        <a href="#imagens">Imagens</a>
+    </nav>
+
+    <section id="videos">
+        <h2>Vídeos</h2>
+        <div class="media-item">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <p class="description">Descrição do vídeo 1: Este é um vídeo de demonstração sobre a natureza.</p>
+        </div>
+        <div class="media-item">
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <p class="description">Descrição do vídeo 2: Um tutorial sobre como criar uma página HTML.</p>
+        </div>
+    </section>
+
+    <section id="musicas">
+        <h2>Músicas</h2>
+        <div class="media-item">
+            <audio controls>
+                <source src="musica1.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p class="description">Descrição da música 1: Uma música relaxante para meditação.</p>
+        </div>
+        <div class="media-item">
+            <audio controls>
+                <source src="musica2.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p class="description">Descrição da música 2: Uma faixa de rock animada.</p>
+        </div>
+    </section>
+
+    <section id="imagens">
+        <h2>Imagens</h2>
+        <div class="media-item">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <p class="description">Descrição da imagem 1: Uma linda paisagem de montanhas ao pôr do sol.</p>
+        </div>
+        <div class="media-item">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <p class="description">Descrição da imagem 2: Um gato descansando em uma janela.</p>
+        </div>
+    </section>
+
+    <!-- Referência ao arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
